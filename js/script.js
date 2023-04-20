@@ -52,9 +52,12 @@ function preload() {
   plant.push(loadSound("assets/sounds/Ivy2.mp3"));
   plant.push(loadSound("assets/sounds/Ivy3.mp3"));
   plant.push(loadSound("assets/sounds/Ivy4.mp3"));
-  plant.push(loadSound("assets/sounds/Mathewstopactually.mp3"));
-  plant.push(loadSound("assets/sounds/mathewsometimes.mp3"));
-  plant.push(loadSound("assets/sounds/mathewif.mp3"));
+  plant.push(loadSound("assets/sounds/AprilHelp.mp3"));
+  plant.push(loadSound("assets/sounds/AprilHelp1.mp3"));
+  plant.push(loadSound("assets/sounds/AprilHelp2.mp3"));
+  //plant.push(loadSound("assets/sounds/Mathewstopactually.mp3"));
+  //plant.push(loadSound("assets/sounds/mathewsometimes.mp3"));
+  //plant.push(loadSound("assets/sounds/mathewif.mp3"));
  }
 
 function setup() {
@@ -136,7 +139,7 @@ function draw() {
   fill(255);
   textAlign(CENTER,CENTER);
   textFont("helvetica",30);
-  text("Link the plants to the sun!", (width/2), (height-50));
+  //text("Link the plants to the sun!", (width/2), (height-50));
 }
 
 //checks if there's a sound playing
